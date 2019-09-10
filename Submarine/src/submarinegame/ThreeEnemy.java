@@ -1,4 +1,4 @@
-package enemy;
+package submarinegame;
 
 import static submarinegame.Coodinatesetter.get;
 import static submarinegame.Coodinatesetter.reset;
@@ -7,6 +7,7 @@ import static submarinegame.Main.shipname;
 
 import java.util.ArrayList;
 
+@Deprecated
 public class ThreeEnemy {
 
 	ArrayList<String> aaa = new ArrayList<String>();

@@ -1,5 +1,6 @@
 package submarinegame;
 
+@Deprecated
 public class Rader {
 
 	public static String[][] rader = {{"A0","B0","C0","D0","E0","F0","G0","H0","I0","J0"} , 

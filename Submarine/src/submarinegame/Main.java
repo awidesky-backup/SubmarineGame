@@ -1,7 +1,6 @@
 package submarinegame;
 
 import java.util.ArrayList;
-import enemy.*;
 
 public class Main {
 	

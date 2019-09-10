@@ -2,6 +2,7 @@ package submarinegame;
 
 import static submarinegame.Rader.rader;
 
+@Deprecated
 public class Printer {
 
 	public static void print(boolean divided) {
