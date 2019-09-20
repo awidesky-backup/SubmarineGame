@@ -20,13 +20,15 @@ public class Main {
 				
 				btn.addActionListener(e -> {
 					
-					check(j,i);
+					//check(j,i);
 					
 				});
 				
 			}
 			
 		}
+		
+		
 	}
 
 

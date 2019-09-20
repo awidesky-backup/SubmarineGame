@@ -1,20 +1,23 @@
-package enemy;
+package submarinegame;
 
 import static submarinegame.Coodinatesetter.get;
 import static submarinegame.Coodinatesetter.reset;
 import static submarinegame.Rader.attempt;
-import static submarinegame.Main.shipname;
 
 import java.util.ArrayList;
 
+@Deprecated
 public class ThreeEnemy {
 
 	ArrayList<String> aaa = new ArrayList<String>();
 	ArrayList<String> bbb = new ArrayList<String>();
 	ArrayList<String> ccc = new ArrayList<String>();
 	
+	ArrayList<String> shipname = null;
+	
 	public void check(String co , boolean overrided) {
 		
+
 		if (aaa.contains(co.toUpperCase())) {
 			
 			aaa.remove(aaa.indexOf(co));
