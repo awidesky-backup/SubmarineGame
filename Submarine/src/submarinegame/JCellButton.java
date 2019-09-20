@@ -2,7 +2,7 @@ package submarinegame;
 
 import javax.swing.JButton;
 
-public class JCoordinateButton extends JButton {
+public class JCellButton extends JButton {
 
 	/**
 	 * 
@@ -11,7 +11,7 @@ public class JCoordinateButton extends JButton {
 
 	private int x,y;
 	
-	public JCoordinateButton(int x, int y) {
+	public JCellButton(int x, int y) {
 		// TODO Auto-generated constructor stub
 		
 		this.x = x;

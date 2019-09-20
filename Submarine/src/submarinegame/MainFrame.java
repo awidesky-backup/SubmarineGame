@@ -13,7 +13,7 @@ public class MainFrame extends JFrame {
 	
 	private JPanel firstPanel;
 	
-	private JCoordinateButton[][] cells = new JCoordinateButton[15][20];
+	private JCellButton[][] cells;
 	
 	public MainFrame() {
 		// TODO Auto-generated constructor stub
@@ -28,15 +28,6 @@ public class MainFrame extends JFrame {
 		firstPanel.setLayout(new BorderLayout());
 		
 	
-		for (int i = 0 ; i < 15 ; i++) {
-			
-			for (int j = 0 ; j < 15 ; j++) {
-				
-				cells[i][j] = new JCoordinateButton(j, i);
-				
-			}
-			
-		}
 	
 	}
 	
