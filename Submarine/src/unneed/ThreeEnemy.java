@@ -1,8 +1,8 @@
-package submarinegame;
+package unneed;
 
-import static submarinegame.Coodinatesetter.get;
-import static submarinegame.Coodinatesetter.reset;
-import static submarinegame.Rader.attempt;
+import static unneed.Coodinatesetter.get;
+import static unneed.Coodinatesetter.reset;
+import static unneed.Rader.attempt;
 
 import java.util.ArrayList;
 
